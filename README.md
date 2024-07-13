@@ -17,7 +17,7 @@ This is a group project that I worked on with six other team members. We had 7 d
 
 ```
 git clone git@github.com:sarah-situ/Grow-Grub.git
-cd Grow-grub
+cd grow-grub
 npm install # to install dependencies
 npm run knex migrate:latest
 npm run knex seed:run
