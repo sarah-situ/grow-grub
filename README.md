@@ -2,7 +2,14 @@
 
 Grow-Grub is your handy veggie-planting companion app. It helps to plan your garden by tracking where you've planted each veggie with your planting dates, and managing growth with scheduled watering and harvest times.
 
-This is a group project that I worked on with six other team members. We had 7 days to build this full stack web app.
+This is a group project that I worked on with six other team members. We had 7 days to build this full-stack web app.
+
+ ## MVP Features
+ - Add different garden plots to visualise and plan where to plant vegetables.
+ - Search for different vegetables to plant, and add them to the database if not available from pre-existing list.
+ - Watering schedule for planted vegetables and mark when you have watered.
+ - Detailed plant care information, such as disease prevention, season to plant, and harvest.
+
 
 ### Installation
 
@@ -21,6 +28,7 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 
 ## Tech Used
 - JavaScript
+- TypeScript
 - React.js
 - Knex.js
 - SQLite3
@@ -49,7 +57,11 @@ We created a team conflict resolution plan during our initial planning session t
 - Decision making to be within working hours and have big decisions as a team and decisions that aren't relevant to others can be made in smaller groups.
 - Ensure consistent communication between team members on the discord channel about any merges or pull requests and changes on GitHub.
 - Clear delineation and assignment of tickets.
-- Check-in with others after you have finished your ticket if they need help.
+- Check in with others after you have finished your ticket if they need help or if starting a new ticket.
 
-
-
+## Planning
+- Use of Figma to create wireframes.
+- Created user stories to figure out what the target audience is.
+  - Beginner: Little to no knowledge of planting veggies. Will require detailed plant care information and reminders when to water plants.
+  - Intermediate: Proficient with basic gardening but needs more guidance on managing pest and disease prevention.
+  - Advanced: Users who are familiar with gardening care but want an app that offers a planting schedule tailored to New Zealand climate and the ability to keep track of harvesting times.
